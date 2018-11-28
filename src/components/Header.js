@@ -20,8 +20,9 @@ export default props => {
 
 const styles= StyleSheet.create({
     container: {
-        flex: 1,
         flexDirection: 'row',
+        flex: 1,
+        width: '100%',
         backgroundColor: '#EEE',
         justifyContent: 'space-between',
         alignItems: 'center',
